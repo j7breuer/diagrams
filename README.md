@@ -37,28 +37,28 @@ My number one priority is to learn about each service, however, not every servic
 ---
 ### Table of Services and Resources
 
-Section | Service             | CPU     | Memory | HDD    | Status
---------|---------------------|---------|--------|--------|--------
-ETL     | NiFi (x3)[^1]       | 4 Cores | 16 GB  | 225 GB | Permanent
-Database | Elasticsearch (x3)[^1] | 2 Cores | 20 GB  | 1.1 TB | Permanent
-Database | PostgreSQL          | 2 Cores | 8 GB   | 100 GB | Permanent
-Database | Kafka (x3)[^1]      | 1 Core  | 6 GB   | 505 GB | Permanent
-Database | Cassandra[^2]       | -       | -      | -      | Not Built
-Database | JanusGraph[^2]      | -       | -      | -      | Not Built
-Deployment | Jenkins             | 2 Cores | 4 GB   | 105 GB | Permanent
-Deployment | Sonarqube           | 1 Core  | 4 GB   | 105 GB | Permanent
-Deployment | Nexus               | 1 Core  | 4 GB   | 1 TB   | Permanent
-Deployment | Kubernetes (x3)[^3] | 4 Cores | 30 GB  | 105 GB | Temporary
-Analytics | Spark (x3)[^1]      | 2 Cores | 16 GB  | 225 GB | Permanent
-Analytics | Livy                | 1 Core  | 16 GB  | 225 GB | Peramnent
-Analytics | JupyterLab[^3]      | 2 Cores | 8 GB   | 65 GB  | Permanent
-Analytics | Kibana[^3]          | 2 Cores | 8 GB   | 65 GB  | Permanent
-Analytics | Portainer[^4]      | -       | -      | -      | Permanent
-Analytics | Rancher[^3][^5]    | - | - | - | Temporary
-Analytics | Provectus[^5]      | - | - | - | Permanent
-Analytics | Prodigy             | - | - | - | Permanent
-Analytics | MLFlow[^2][^5]     | - | - | - | Not Built
-Analytics | LabelStudio[^2][^5] | - | - | - | Not Built
+Section | Service                | CPU     | Memory | HDD    | Status
+--------|------------------------|---------|--------|--------|--------
+ETL     | NiFi[^1] (x3)          | 4 Cores | 16 GB  | 225 GB | Permanent
+Database | Elasticsearch[^1] (x3) | 2 Cores | 20 GB  | 1.1 TB | Permanent
+Database | PostgreSQL             | 2 Cores | 8 GB   | 100 GB | Permanent
+Database | Kafka[^1] (x3)         | 1 Core  | 6 GB   | 505 GB | Permanent
+Database | Cassandra[^2]          | -       | -      | -      | Not Built
+Database | JanusGraph[^2]         | -       | -      | -      | Not Built
+Deployment | Jenkins                | 2 Cores | 4 GB   | 105 GB | Permanent
+Deployment | Sonarqube              | 1 Core  | 4 GB   | 105 GB | Permanent
+Deployment | Nexus                  | 1 Core  | 4 GB   | 1 TB   | Permanent
+Deployment | Kubernetes[^3] (x3)    | 4 Cores | 30 GB  | 105 GB | Temporary
+Analytics | Spark[^1] (x3)         | 2 Cores | 16 GB  | 225 GB | Permanent
+Analytics | Livy                   | 1 Core  | 16 GB  | 225 GB | Peramnent
+Analytics | JupyterLab[^3]         | 2 Cores | 8 GB   | 65 GB  | Permanent
+Analytics | Kibana[^3]             | 2 Cores | 8 GB   | 65 GB  | Permanent
+Analytics | Portainer[^4]          | -       | -      | -      | Permanent
+Analytics | Rancher[^3] [^5]       | - | - | - | Temporary
+Analytics | Provectus[^5]          | - | - | - | Permanent
+Analytics | Prodigy                | - | - | - | Permanent
+Analytics | MLFlow[^2] [^5]        | - | - | - | Not Built
+Analytics | LabelStudio[^2] [^5]   | - | - | - | Not Built
 
 \
 [^1] Clustered deployment across 3 servers\
