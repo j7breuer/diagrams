@@ -60,6 +60,7 @@ Analytics | Prodigy               | - | - | - | Permanent
 Analytics | MLFlow*               | - | - | - | Not Built
 Analytics | LabelStudio*          | - | - | - | Not Built
 
+\
 *Service not yet created\
 **Service created for learning purposes, will be removed in long run\
 ***Services run on the same server\
