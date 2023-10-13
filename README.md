@@ -61,11 +61,11 @@ Analytics | MLFlow[^2] [^5]        | - | - | - | Not Built
 Analytics | LabelStudio[^2] [^5]   | - | - | - | Not Built
 
 \
-[^1] Clustered deployment across 3 servers\
+[^1]: Clustered deployment across 3 servers\
 [^2]: Service not yet created\
 [^3]: Service created for learning purposes, will be removed in long run\
 [^4]: Services run on the same server\
-[^5] Service deployed via Docker/Kubernetes\
+[^5]: Service deployed via Docker/Kubernetes\
 
 ---
 
