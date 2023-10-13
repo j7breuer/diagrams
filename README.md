@@ -9,30 +9,30 @@ My number one priority is to learn about each service, however, not every servic
 
 ### Sections:
 1. ETL Service(s)
-   1. Apache NiFi
+   1. Apache NiFi[^1]
 2. Database Service(s)
-   1. Elasticsearch
+   1. Elasticsearch[^1]
    2. PostgreSQL
-   3. Apache Kafka
-   4. Cassandra*
-   5. JanusGraph*
+   3. Apache Kafka[^1]
+   4. Cassandra[^2]
+   5. JanusGraph[^2]
 3. Deployment Service(s)
    1. Jenkins
    2. Sonarqube
    3. Nexus
    4. Docker
-   5. Kubernetes**
+   5. Kubernetes[^1][^3]
 4. Analytical Service(s)
-   1. Apache Spark
+   1. Apache Spark[^1]
    2. Apache Livy
-   3. JupyterLab
-   4. Kibana
-   5. Portainer
-   6. Rancher**
-   7. Provectus
+   3. JupyterLab[^4]
+   4. Kibana[^4]
+   5. Portainer[^5]
+   6. Rancher[^3][^5]
+   7. Provectus[^5]
    8. Prodigy
-   9. MLFlow*
-   10. LabelStudio*
+   9. MLFlow[^2]
+   10. LabelStudio[^2]
 
 ---
 ### Table of Services and Resources
