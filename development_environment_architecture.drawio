@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T21:37:24.299Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="pO8m9I5e15bpM0VbYvtJ" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T02:26:51.468Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="-41-m7si3lZUrwk63Aoc" version="22.0.4" type="github">
   <diagram name="Page-1" id="rGuYha_ihY319ISd8MzV">
-    <mxGraphModel dx="1472" dy="2200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1108" dy="1795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -266,10 +266,10 @@
         <mxCell id="za8EDoor_-EJzlwWxWrH-84" value="NiFi&lt;br&gt;(x3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="910" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="za8EDoor_-EJzlwWxWrH-85" value="Spark&lt;br&gt;(x3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="za8EDoor_-EJzlwWxWrH-85" value="Spark*&lt;br&gt;(x3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="910" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="za8EDoor_-EJzlwWxWrH-86" value="Livy" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="za8EDoor_-EJzlwWxWrH-86" value="Livy*" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="910" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="za8EDoor_-EJzlwWxWrH-87" value="Kibana" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -350,34 +350,34 @@
         <mxCell id="za8EDoor_-EJzlwWxWrH-114" value="Soon to be retired, the Docker server is used for prototyping builds.&amp;nbsp; In progress of migrating everything to Kubernetes cluster.&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1240" y="1180" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="za8EDoor_-EJzlwWxWrH-115" value="2 &lt;br&gt;Core&lt;br&gt;(x3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="za8EDoor_-EJzlwWxWrH-115" value="2 &lt;br&gt;Cores&lt;br&gt;(x3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1050" y="-20" width="50" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="za8EDoor_-EJzlwWxWrH-116" value="16 GB RAM&lt;br&gt;(x3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="za8EDoor_-EJzlwWxWrH-116" value="20 GB RAM&lt;br&gt;(x3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1110" y="-20" width="50" height="60" as="geometry" />
         </mxCell>
         <mxCell id="za8EDoor_-EJzlwWxWrH-117" value="1.1 TB HDD&lt;br&gt;(x3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1170" y="-20" width="50" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="za8EDoor_-EJzlwWxWrH-118" value="1 &lt;br&gt;Core" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="za8EDoor_-EJzlwWxWrH-118" value="2 &lt;br&gt;Cores" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1050" y="60" width="50" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="za8EDoor_-EJzlwWxWrH-119" value="16 GB RAM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="za8EDoor_-EJzlwWxWrH-119" value="8 GB RAM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1110" y="60" width="50" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="za8EDoor_-EJzlwWxWrH-120" value="1 TB HDD" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="za8EDoor_-EJzlwWxWrH-120" value="100 GB HDD" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1170" y="60" width="50" height="60" as="geometry" />
         </mxCell>
         <mxCell id="za8EDoor_-EJzlwWxWrH-121" value="1 &lt;br&gt;Core&lt;br&gt;(x3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1050" y="140" width="50" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="za8EDoor_-EJzlwWxWrH-122" value="4 GB RAM&lt;br&gt;(x3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="za8EDoor_-EJzlwWxWrH-122" value="6 GB RAM&lt;br&gt;(x3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1110" y="140" width="50" height="60" as="geometry" />
         </mxCell>
         <mxCell id="za8EDoor_-EJzlwWxWrH-123" value="505 GB HDD&lt;br&gt;(x3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1170" y="140" width="50" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="za8EDoor_-EJzlwWxWrH-124" value="4 &lt;br&gt;Core&lt;br&gt;(x3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="za8EDoor_-EJzlwWxWrH-124" value="2&lt;br&gt;Cores&lt;br&gt;(x3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1050" y="222" width="50" height="60" as="geometry" />
         </mxCell>
         <mxCell id="za8EDoor_-EJzlwWxWrH-125" value="16 GB RAM&lt;br&gt;(x3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -401,10 +401,10 @@
         <mxCell id="za8EDoor_-EJzlwWxWrH-131" value="16 GB RAM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1110" y="380" width="50" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="za8EDoor_-EJzlwWxWrH-132" value="1 TB HDD" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="za8EDoor_-EJzlwWxWrH-132" value="225 GB HDD" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1170" y="380" width="50" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="za8EDoor_-EJzlwWxWrH-133" value="1 &lt;br&gt;Core" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="za8EDoor_-EJzlwWxWrH-133" value="2&lt;br&gt;Cores" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1050" y="461" width="50" height="139" as="geometry" />
         </mxCell>
         <mxCell id="za8EDoor_-EJzlwWxWrH-134" value="8 GB RAM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -467,19 +467,19 @@
         <mxCell id="za8EDoor_-EJzlwWxWrH-156" value="1 TB HDD" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1170" y="1020" width="50" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="za8EDoor_-EJzlwWxWrH-157" value="1 &lt;br&gt;Core&lt;br&gt;(x3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="za8EDoor_-EJzlwWxWrH-157" value="4 &lt;br&gt;Cores&lt;br&gt;(x3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1050" y="1100" width="50" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="za8EDoor_-EJzlwWxWrH-158" value="4 GB&amp;nbsp; RAM&lt;br&gt;(x3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="za8EDoor_-EJzlwWxWrH-158" value="30 GB&amp;nbsp; RAM&lt;br&gt;(x3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1110" y="1100" width="50" height="60" as="geometry" />
         </mxCell>
         <mxCell id="za8EDoor_-EJzlwWxWrH-159" value="105 GB HDD&lt;br&gt;(x3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1170" y="1100" width="50" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="za8EDoor_-EJzlwWxWrH-160" value="6 &lt;br&gt;Core" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="za8EDoor_-EJzlwWxWrH-160" value="8&lt;br&gt;Core" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1050" y="1180" width="50" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="za8EDoor_-EJzlwWxWrH-161" value="16 GB RAM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="za8EDoor_-EJzlwWxWrH-161" value="20 GB RAM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1110" y="1180" width="50" height="60" as="geometry" />
         </mxCell>
         <mxCell id="za8EDoor_-EJzlwWxWrH-162" value="525 GB HDD" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
